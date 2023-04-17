@@ -1,5 +1,5 @@
-def angle(a, b):
-  import numpy as np 
+def angle(np, a, b):
+   
   # Скалярное произведение двух векторов
   scalar = np.dot(a,b)
   # Нормирование первого и второго вектора
